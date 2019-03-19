@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chi tiết sản phẩm</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/analy.css">
+	<link rel="stylesheet"  type="text/css" href="css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="site">
+	<div id="wrapper">
+		<div id="header">
+			<div class = "wp-inner ">
+				<a href="" id="logo"><img src="img/logo-02.png"/></a>
+				<ul id="main-menu" class="fl-left">
+					<li><a href="">Trang chủ</a></li>
+					<li><a href="">Thực đơn</a></li>
+					<li><a href="">Khuyến mại</a></li>
+					<li><a href="">Chính sách</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Liên hệ</a></li>
+					<li><a href=""><i class="fa fa-cart-plus"></i> Giỏ Hàng</a></li>
+					<li><a href="" style="font-size: 20px;"><i class="fa fa-phone"></i> 0123456789</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--end header-->
+	<div id = "content" class = "row container">
+		<div class = "col-sm-8">
+			<div id = "anal-prod" class = "fl-left">
+				<div class="fl-left img-thumbnail anal-img">
+					<img src="img/pizza/pizza1.png">
+				</div>
+				<div id = "infor" class="fl-left">
+					<div class = "icoin-star">
+					</div>
+					Pizza <br>
+					Mã sp : pizza1<br>
+					110.000 VNĐ
+					<div id = "chi-tiet">
+						Pizza bún đậu mắm tôm là món mới 
+					</div>
+					<button>Thêm vào giỏ hàng</button>
+				</div>
+			</div>
+			<div class = "information fl-left">
+				<h1>Thông tin sản phẩm :</h1>
+				<p>Ăn thử khác biết ngon</p>
+				<img id="img_1" src="img/pizza/pizza1.png">
+				<div >
+					<a href="https://facebook.com" class="icon-fb" title="">
+						<span class="fa fa-thumbs-up"> Thích</span>
+					</a>
+					<a class="icon-fb" href="https://facebook.com" title="">Chia sẻ</a>
+				</div>
+			</div>
+			<div class = "comment fl-left" style="width: 100%;">
+					<div class="comment comment-count">
+						<div class="fl-left">
+							0 bình luận
+						</div>
+						<div style = "float : right;">
+							Sắp xếp theo <select name = "sapxep">
+								<option value="Moi">Mới nhất</option>
+								<option value="Like">Thích nhiều nhất</option>
+							</select>
+						</div>
+					</div>
+						<div>
+							<img src="img/comment.jpg">
+							<input type="text" name="comment" placeholder="Thêm bình luận">
+						</div>
+			</div>
+		</div>
+		<aside class = "col-sm-4">
+				<p class = "bor">Chúng tôi tự hào mang đến cho các bạn những sản phẩm đạt tiêu chuẩn an toàn vệ sinh thực phẩm.
+				Với 30 năm không ngừng phát triển và vươn xa.</p>
+				<p class = "bor">Giao hàng trong 10 phút</p>
+				<div class="img-aside">
+				</div>
+		</aside>
+	</div>
+		<div id="footer" class="clearfix">
+
+			<div id="about-us">
+				<img src="img/logo-02.png">
+				<p class="title-about-us">Chuỗi cửa hàng đồ ăn nhanh FreshFood</p>
+				<ul>
+					<li> Để đặt hàng vui lòng liên hệ qua số tổng đài: 0123456789</li>
+					<li> Để phản ánh chất lượng dịch vụ, vui lòng gọi số:0987654321</li>
+					<li> Email: freshfood@gmail.com</li>
+					<li> Chính sách bảo mật thông tin cá nhân</li>
+					<li> Chính sách thanh toán</li>
+				</ul>
+			</div>
+			<div id="address">
+				<p>Địa chỉ tại Hà Nội</p>
+				<ul>
+					<li> 236 Hoàng Quốc Việt - Cầu giấy</li>
+					<li> 5 Nguyễn Trãi - Thanh Xuân</li>
+					<li> 47 Tràng Tiền - Hoàn Kiếm</li>
+					<li> 105 Tân Mai - Hoàng Mai</li>
+				</ul>
+			</div>	
+		</div>	
+		<!--end footer-->
+		<div id="copyright" class="wp-inner">
+				<p class="copyright"> © 2017 All right reserved - Bản quyền thuộc về VIETSOZ.com</p>
+		</div>
+	
+	</div>
+</div>
+
+<script src="/path/to/noframework.waypoints.min.js"></script>
+<script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer>
+	// $('a').click(function(event) {
+	// 	&('html,body').animate({
+	// 		scrollTop: $($.attr(this,'herf')).offset().top
+	// 	}, 700);
+	// 		event.preventDefault();
+	// });
+	$(document).ready(
+		function () {
+			$('').waypoint(
+				function (dir) {
+					if (dir == "down") {
+						$('nav').addClass();
+					}
+				}
+			)
+		}
+	)
+</script>
+</body>
+</html>

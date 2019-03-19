@@ -1,0 +1,97 @@
+#content{
+	min-height: 500px;
+	display: inline-block;
+	margin: 20px 60px;
+}
+
+#infor{
+ 	margin: 10px;
+}
+
+
+#chi-tiet{
+	margin: 10px 0;
+	border: 1px dotted;
+}
+
+.icon-fb{
+	border-radius: 5px;
+	background-color: #2851A3;
+	width: 70px;
+	height: 25px;
+	margin : 0px 2px;
+	padding : 3px;
+	font-size: 10px;
+	color: white;
+}
+span.fa.fa-thumbs-up {
+    margin-left: 8px;
+}
+
+.information{
+	display: block;
+	width: 100%;
+}
+
+.bor{
+	border: 1px solid;
+	padding: 5px;
+}
+
+.anal-img{
+	width: 255;
+	height:201;
+}
+
+#img_1{
+	width: 400px;
+	height: auto;
+	display: block;
+	margin:auto;
+	padding :10px;
+}
+
+.icoin-star{
+	background-image: url(../img/icoin.png);
+    background-position: -21px -368px;
+    position: relative;
+    width: 80px;
+    height: 18px;
+}
+
+.comment {
+    border-bottom: 2px solid #fbf8f8;
+    margin-bottom: 10px;
+    padding-bottom: 12px;
+    box-shadow: 0px 1px 0 0 #dcd9d9;
+}
+
+.comment-count{
+	height: 30px;
+}
+
+.comment img{
+	width: 28px;
+	margin:2px;
+}
+
+.comment input{
+	padding-left: 2px;
+	height: 30px;
+	width: 94%;
+	float: right;
+	margin-top: 3px;
+}
+
+aside {
+	float: right;
+	width: 30%;
+	padding : 20px;
+}
+
+.img-aside{
+	background-blend-mode: multiply;
+	background-image:  url("../img/bg/bg.jpg"),url("../img/bg/bg7.jpg");
+	width: 350px;
+	height: 550px;
+}
